@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Assignment5.css">
+    <title>Description</title>
+</head>
+<body>
+
+<h1> <center> Basic Webpage</center></h1>
+    <div class="navbar">
+       <div class="dropdown">
+        <button class="dropbtn">Course
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://gaia.cs.umass.edu/kurose_ross/authors.php">Kurose and Ross</a>
+          <a href="http://w3schools.com">w3schools</a>
+          <a href="https://www.geeksforgeeks.org/web-development/">Geeks for geeks</a>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="dropbtn">Browser
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="navigator.html">Navigator</a>
+        </div>
+      </div>
+
+
+       <div class="dropdown">
+        <button class="dropbtn">About
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Description.html" id="description_link">Description</a>
+          <a href="Contact.html" id="contact_link">Contact Me</a>
+        </div>
+      </div>
+
+    </div>
+
+<h2>Description</h2>
+
+<p id="description"></p>
+
+<script>
+document.getElementById("description").innerHTML = "Maria Urena is a first generations student, currently studying Computer Science at Queens College. " +
+    "She will soon graduate with a Bachelor of Arts in Computer Science during the Fall of 2024";
+</script>
+
+</body>
+</html>
+
+
+
